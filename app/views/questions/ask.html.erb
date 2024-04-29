@@ -1,0 +1,4 @@
+<%= form_tag(answer_path, method: :get, data: { turbo: false }) do %>
+  <%= text_field_tag :question %>
+  <%= submit_tag "Ask!" %>
+<% end %>
